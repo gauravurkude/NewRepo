@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+
+
+<form method="post" action="/account/login" class="text-center">
+  <table style="box-shadow: 2px 3px #888888; margin:20px; padding:20px" >
+    <tr>
+      <th colspan="2"><h3>Login</h3><br/></th>
+    </tr>
+    <tr>
+      <td>Enter email : </td>
+      <td><input type="email" class="form-control" id="email" placeholder="Enter email" name="email"></td>
+    </tr>
+    <tr class="mb-3">
+      <td>Password :</td>
+      <td><input type="password" class="form-control" id="password" placeholder="Enter password" name="password"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button type="submit" class="btn btn-primary">    Sign In    </button><br/></td>
+    </tr>
+    <tr >
+      <td colspan="2"><button type="button" class="btn btn-primary" onclick="window.location.href='/Account/Register'">New User Sign Up</button></td>
+    </tr>
+ 
+  </table>
+</form>
+</div>

@@ -1,0 +1,34 @@
+﻿@using BOL;
+@{
+    ViewData["Title"] = "Products Page";
+}
+
+<!-- When DAl,BOL,BLL are provided -->
+
+
+<div>
+    <h3>List of Flower for Sale</h3>
+</div>   
+@{
+    //List<Product> products=ViewData["products"] as List<Product>;
+    List<Product> products = ViewBag.catalog;
+    
+    foreach( Product product in products)
+    {
+        <li><a href="/products/details/@product.ProductId">@product.Title</a></li>
+    }
+}
+
+<!-- When DAl,BOL,BLL are not provided -->
+
+<!--
+
+ <ol>
+    <li> <a href="/products/details/12">Rose(Gulab)</a></li>
+    <li> <a href="/products/details/13">Chrysanthemum(Shevanti)</a></li>
+    <li> <a href="/products/details/14">Arabian jasmine(Mogra)</a></li>
+    <li> <a href="/products/details/15">Saussurea obvallata(Bhrahm kamal)</a></li>
+   
+ </ol>
+-->
+

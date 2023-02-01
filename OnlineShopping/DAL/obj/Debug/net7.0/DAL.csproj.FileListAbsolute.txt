@@ -1,0 +1,15 @@
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\C#_NET\S&G\OnlineShopping\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\C#_NET\S&G\OnlineShopping\DAL\bin\Debug\net7.0\DAL.dll
+D:\C#_NET\S&G\OnlineShopping\DAL\bin\Debug\net7.0\DAL.pdb
+D:\C#_NET\S&G\OnlineShopping\DAL\bin\Debug\net7.0\BOL.dll
+D:\C#_NET\S&G\OnlineShopping\DAL\bin\Debug\net7.0\BOL.pdb
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.dll
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\DAL.pdb
+D:\C#_NET\S&G\OnlineShopping\DAL\obj\Debug\net7.0\ref\DAL.dll

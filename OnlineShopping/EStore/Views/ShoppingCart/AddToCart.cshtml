@@ -1,0 +1,23 @@
+﻿@using BOL;
+
+@{
+    ViewData["Title"] = "Add To Cart Page";
+}
+
+@{
+    Product product = ViewBag.currentProduct as Product;
+
+
+    <h3> Product Details</h3>
+    <hr/>
+
+    <h4>@product.Title</h4>
+    <p>Id: @product.ProductId</p>
+    <p>Description: @product.Description</p>
+    <p>Unit Price: @product.UnitPrice Rs.</p>
+    <p>Stock Available: @product.StockAvailable</p>
+
+    <br/><br/>
+
+    <a href="/shoppingcart/addtocart/@product.ProductId">Add to Cart</a>
+}

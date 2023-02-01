@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    ViewData["Title"] = "Cart Page";
+}
+
+
+<div>
+    <h3>Shopping Cart</h3>
+    
+@{
+    //string data= @HttpContextAccessor.HttpContext.Session.GetString("cart");
+    string data = ViewData["cart"].ToString();
+    <p>
+        Cart Data : @data  |
+        <a href="/shoppingcart/removefromcart/@data">Remove</a>  |
+        <a href="/shoppingcart/updatefromcart/@data">Edit</a> 
+    </p>
+}
+
+
+</div>
